@@ -2,5 +2,6 @@
   "accentColor": "",
   "theme": "system",
   "baseFontSize": 19,
-  "monospaceFontFamily": "Cascadia Code"
+  "monospaceFontFamily": "Cascadia Code",
+  "translucency": true
 }
