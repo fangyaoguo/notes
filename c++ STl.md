@@ -95,6 +95,37 @@ int main() {
 `std::sort` 是一个高效的排序算法，通常采用的是快速排序或者归并排序的变体。排序之后，容器中的元素将按照指定的顺序排列，使得对数据进行查找等操作更加高效。
 
 
+### 去重算法
+1. 在C++中，`std::unique`是一个算法，用于在容器中去除相邻的重复元素。它并不真正删除重复元素，而是将它们移到容器的末尾，并返回一个指向新的逻辑尾部的迭代器。这样，容器的前部就包含了不重复的元素，而后部包含了重复的元素。
+
+以下是`std::unique`的基本用法：
+
+```cpp
+#include <algorithm>
+#include <vector>
+#include <iostream>
+
+int main() {
+    std::vector<int> vec = {1, 2, 2, 3, 4, 4, 5};
+
+    // 使用 std::unique 去除相邻的重复元素
+    auto newEnd = std::unique(vec.begin(), vec.end());
+
+    // 删除重复元素后的容器大小不变，但重复元素移到了末尾
+    vec.erase(newEnd, vec.end());
+
+    // 输出不重复的元素
+    for (const auto& element : vec) {
+        std::cout << element << " ";
+    }
+
+    return 0;
+}
+```
+
+在这个例子中，`std::unique`会将相邻的重复元素移动到容器末尾，并返回指向新逻辑尾部的迭代器。然后，可以使用容器的`erase`方法删除重复元素的部分。
+
+需要注意的是，`std::unique`只能去除相邻的重复元素，如果要去除整个容器中的重复元素，通常需要先对容器进行排序（使用`std::sort`），然后再使用`std::unique`。
 # 容器
 ### 介绍
 C++ 标准模板库（STL）提供了多种容器，每种容器都有其独特的特性和适用场景。以下是 C++ STL 中的主要容器：
@@ -309,3 +340,58 @@ for (int element : myList) {
 ```
 
 `std::list` 在某些场景中比 `std::vector` 更适用，特别是当需要在容器中间或开头频繁插入或删除元素时。使用 `std::list` 可以避免在数组中插入或删除元素时涉及的元素移动操作。****
+## set
+在C++中，`std::set`是一个标准库中提供的集合容器，它是一个有序的容器，其中的元素按照升序排序。`std::set`是基于红黑树（Red-Black Tree）实现的，这使得插入、删除和查找操作的平均时间复杂度为O(log n)。
+
+以下是关于`std::set`的一些重要特性和用法：
+
+1. **有序性：** `std::set`中的元素是有序的，默认按照元素的升序进行排序。这个有序性使得`std::set`很适合需要按照顺序访问元素的场景。
+
+2. **唯一性：** `std::set`中不允许重复的元素。每个元素都是唯一的，如果插入一个已经存在的元素，插入操作将被忽略。
+
+3. **插入和删除：** 插入和删除操作都具有较高的效率，平均时间复杂度为O(log n)。
+
+4. **查找：** 查找操作同样具有较高的效率，平均时间复杂度为O(log n)。
+
+5. **迭代器：** `std::set`提供了正向迭代器，可以用于遍历容器中的元素。
+
+6. **使用示例：**
+    ```cpp
+    #include <iostream>
+    #include <set>
+
+    int main() {
+        // 创建一个set
+        std::set<int> mySet;
+
+        // 插入元素
+        mySet.insert(3);
+        mySet.insert(1);
+        mySet.insert(4);
+        mySet.insert(2);
+
+        // 遍历元素
+        for (const auto& element : mySet) {
+            std::cout << element << " ";
+        }
+        // 输出：1 2 3 4
+
+        // 查找元素
+        auto it = mySet.find(3);
+        if (it != mySet.end()) {
+            std::cout << "\nElement found: " << *it << std::endl;
+        }
+
+        // 删除元素
+        mySet.erase(2);
+
+        // 输出删除元素后的set
+        for (const auto& element : mySet) {
+            std::cout << element << " ";
+        }
+        // 输出：1 3 4
+
+        return 0;
+    }
+    ```
+    上述示例演示了如何创建`std::set`，插入、遍历、查找和删除元素。
