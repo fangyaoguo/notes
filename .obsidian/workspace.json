@@ -4,36 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "add8a98cbd750636",
+        "id": "85a63d42c1b5a51f",
         "type": "tabs",
         "children": [
           {
-            "id": "2364f81f5473584b",
+            "id": "91c57fa56ebbe504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/哨兵划分.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b96f6eddfdaadbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/双指针.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/双指针.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/双指针.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/排序算法.md"
+                "file": "算法/双指针.md"
               }
             }
           },
@@ -171,9 +158,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1b96f6eddfdaadbe",
+  "active": "91c57fa56ebbe504",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "算法/双指针.md",
     "算法/哨兵划分.md",
+    "c++/类.md",
     "算法/排序算法.md",
     "算法/链表.md",
     "c++/c++ STl.md",
@@ -183,9 +173,7 @@
     "c++/运算符重载.md",
     "未命名 1.md",
     "未命名.md",
-    "c++/类.md",
     "比赛.md",
-    "算法/双指针.md",
     "c++/对象，继承，引用.md",
     "算法/位运算.md",
     "算法/输入输出.md",
@@ -204,11 +192,9 @@
     "pic/屏幕截图 2023-11-06 205012.png",
     "pic",
     "新建文件夹",
-    "网络/协议.md",
     "网络",
     "c++",
     "屏幕截图 2023-11-06 205012.png",
-    "屏幕截图 2023-11-06 212248.png",
-    "未命名.canvas"
+    "屏幕截图 2023-11-06 212248.png"
   ]
 }
