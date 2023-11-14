@@ -1,7 +1,8 @@
 {
   "accentColor": "",
-  "theme": "system",
-  "baseFontSize": 19,
+  "theme": "obsidian",
+  "baseFontSize": 17,
   "monospaceFontFamily": "Cascadia Code",
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "AnuPpuccin"
 }
