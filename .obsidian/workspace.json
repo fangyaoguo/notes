@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/双指针.md",
+                "file": "算法/二分.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/双指针.md",
+                "file": "算法/二分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/双指针.md",
+                "file": "算法/二分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/双指针.md"
+                "file": "算法/二分.md"
               }
             }
           },
@@ -160,13 +160,14 @@
   },
   "active": "91c57fa56ebbe504",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "算法/双指针.md",
     "算法/哨兵划分.md",
+    "c++/c++ STl.md",
+    "算法/二分.md",
+    "算法/双指针.md",
+    "未命名.canvas",
     "c++/类.md",
     "算法/排序算法.md",
     "算法/链表.md",
-    "c++/c++ STl.md",
     "c++/函数探幽.md",
     "未命名",
     "算法/杂项.md",
