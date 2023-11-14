@@ -3,5 +3,5 @@
   "theme": "system",
   "baseFontSize": 19,
   "monospaceFontFamily": "Cascadia Code",
-  "translucency": true
+  "translucency": false
 }
