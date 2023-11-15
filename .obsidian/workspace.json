@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/链表.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/二分.md",
+                "file": "算法/链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/二分.md",
+                "file": "算法/链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/二分.md"
+                "file": "算法/链表.md"
               }
             }
           },
@@ -171,11 +173,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed167d85daaf0c2c",
+  "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
-    "算法/双指针.md",
     "c++/c++ STl.md",
     "算法/二分.md",
+    "算法/双指针.md",
     "栈.md",
     "算法/贪心算法.md",
     "算法/位运算.md",
