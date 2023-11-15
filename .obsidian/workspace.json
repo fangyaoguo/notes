@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/链表.md",
+                "file": "算法/二分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/链表.md",
+                "file": "算法/二分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/链表.md"
+                "file": "算法/二分.md"
               }
             }
           },
@@ -173,8 +172,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3de0c7882e4d819b",
+  "active": "ed167d85daaf0c2c",
   "lastOpenFiles": [
+    "算法/链表.md",
     "c++/c++ STl.md",
     "算法/二分.md",
     "算法/双指针.md",
@@ -185,7 +185,6 @@
     "未命名.canvas",
     "c++/类.md",
     "算法/排序算法.md",
-    "算法/链表.md",
     "c++/函数探幽.md",
     "未命名",
     "算法/杂项.md",
