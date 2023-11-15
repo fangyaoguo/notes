@@ -416,3 +416,96 @@ for (int element : myList) {
     }
     ```
     上述示例演示了如何创建`std::set`，插入、遍历、查找和删除元素。
+
+## priority_queue
+`priority_queue`（优先队列）是C++标准模板库（STL）中的一个容器适配器，用于实现具有优先级的队列。它是基于堆（heap）数据结构实现的，通常用于需要按照特定顺序处理元素的场景。
+
+### 特点和用途：
+1. **优先级队列：** `priority_queue` 会按照元素的优先级进行排序，每次访问或弹出的都是具有最高优先级的元素。
+  
+2. **底层实现：** 通常使用堆来实现。默认情况下，`priority_queue` 是一个最大堆（大顶堆），意味着最大的元素总是位于队列的最前面。你也可以通过指定比较函数来创建最小堆。
+
+3. **接口与队列相似：** `priority_queue` 提供了类似于队列（FIFO）的接口，例如 `push()`（入队）、`pop()`（出队）、`top()`（访问队首元素）等。
+
+### 基本操作：
+
+- **构造：** `std::priority_queue<T>` 创建一个类型为 T 的优先队列，默认是最大堆；也可以通过提供比较函数来创建最小堆。
+
+  ```cpp
+  #include <queue>
+  std::priority_queue<int> max_heap; // 默认是最大堆
+  std::priority_queue<int, std::vector<int>, std::greater<int>> min_heap; // 最小堆
+  ```
+
+- **插入：** 使用 `push()` 方法将元素插入队列。
+
+  ```cpp
+  max_heap.push(10);
+  max_heap.push(20);
+  ```
+
+- **访问队首元素：** 使用 `top()` 方法获取队首元素。
+
+  ```cpp
+  int top_element = max_heap.top(); // 获取最大元素
+  ```
+
+- **弹出队首元素：** 使用 `pop()` 方法弹出队首元素。
+
+  ```cpp
+  max_heap.pop(); // 移除最大元素
+  ```
+
+### 例子：
+
+```cpp
+#include <iostream>
+#include <queue>
+
+int main() {
+    std::priority_queue<int> max_heap;
+
+    max_heap.push(30);
+    max_heap.push(10);
+    max_heap.push(20);
+
+    std::cout << "Top element: " << max_heap.top() << std::endl; // Output: 30
+
+    max_heap.pop(); // Remove the top element
+
+    std::cout << "Top element after pop: " << max_heap.top() << std::endl; // Output: 20
+
+    return 0;
+}
+```
+
+这是一个简单的例子，说明了如何使用 `priority_queue` 进行基本操作。需要注意，`priority_queue` 并没有提供迭代器，因此无法直接遍历其中的元素。
+### 最小堆 
+要创建最小堆，你需要使用 `priority_queue` 的第二和第三个参数来指定底层容器类型和比较函数。
+
+在默认情况下，`priority_queue` 使用 `std::less` 作为比较函数，这将导致创建最大堆。为了创建最小堆，你应该使用 `std::greater` 作为比较函数。以下是一个创建最小堆的示例：
+
+```cpp
+#include <iostream>
+#include <queue>
+#include <vector>
+
+int main() {
+    // 使用 std::greater<int> 作为比较函数，创建最小堆
+    std::priority_queue<int, std::vector<int>, std::greater<int>> min_heap;
+
+    min_heap.push(30);
+    min_heap.push(10);
+    min_heap.push(20);
+
+    std::cout << "Top element: " << min_heap.top() << std::endl; // Output: 10
+
+    min_heap.pop(); // 移除最小元素
+
+    std::cout << "Top element after pop: " << min_heap.top() << std::endl; // Output: 20
+
+    return 0;
+}
+```
+
+在这个例子中，`std::greater<int>` 作为比较函数，确保了最小的元素位于队首。这样，你就创建了一个最小堆。
