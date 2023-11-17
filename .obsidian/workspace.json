@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/二分.md",
+                "file": "c++/c++ STl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "c++/友元.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -80,13 +80,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "c++/友元.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "c++/友元.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/c++ STl.md"
+                "file": "c++/友元.md"
               }
             }
           },
@@ -175,11 +173,14 @@
   },
   "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
-    "算法/链表.md",
-    "算法/二分.md",
+    "未命名.md",
+    "c++/友元.md",
+    "c++/运算符重载.md",
     "c++/c++ STl.md",
+    "算法/二分.md",
+    "算法/链表.md",
     "算法/双指针.md",
-    "栈.md",
+    "算法/栈.md",
     "算法/贪心算法.md",
     "算法/位运算.md",
     "算法/哨兵划分.md",
@@ -189,7 +190,6 @@
     "c++/函数探幽.md",
     "未命名",
     "算法/杂项.md",
-    "c++/运算符重载.md",
     "未命名 1.md",
     "比赛.md",
     "c++/对象，继承，引用.md",
@@ -201,9 +201,7 @@
     "c++/string类.md",
     "c++/c的字符串操作函数.md",
     "c++/命名空间.md",
-    "算法/高精度算法.md",
     "算法",
-    "README.md",
     "pic/屏幕截图 2023-11-06 212248.png",
     "pic/屏幕截图 2023-11-06 205012.png",
     "pic",
