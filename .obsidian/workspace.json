@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/友元.md",
+                "file": "算法/栈.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/二分.md",
+                "file": "算法/栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/二分.md",
+                "file": "算法/栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/二分.md"
+                "file": "算法/栈.md"
               }
             }
           },
@@ -170,8 +171,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed167d85daaf0c2c",
+  "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
+    "c++/友元.md",
+    "算法/二分.md",
     "算法/高精度算法.md",
     "算法/哨兵划分.md",
     "算法/前缀和与差分.md",
@@ -186,10 +189,8 @@
     "网络/ipv4.md",
     "算法/栈.md",
     "c++/c++ STl.md",
-    "c++/友元.md",
     "未命名.md",
     "c++/运算符重载.md",
-    "算法/二分.md",
     "算法/双指针.md",
     "未命名.canvas",
     "c++/类.md",
