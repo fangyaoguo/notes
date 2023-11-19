@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/哨兵划分.md",
+                "file": "c++/c++ STl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "单调栈",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/哨兵划分.md",
+                "file": "c++/c++ STl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/哨兵划分.md",
+                "file": "c++/c++ STl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/哨兵划分.md"
+                "file": "c++/c++ STl.md"
               }
             }
           },
@@ -158,21 +158,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3de0c7882e4d819b",
+  "active": "4f901f97998309ca",
   "lastOpenFiles": [
+    "算法/栈.md",
+    "算法/链表.md",
+    "算法/bitset.md",
+    "算法/哨兵划分.md",
     "c++/c++ STl.md",
     "c++/类.md",
     "c++/运算符重载.md",
     "算法/求数字位数.md",
     "算法/二分.md",
     "c++/unordered_set.md",
-    "算法/栈.md",
     "c++/友元.md",
     "算法/高精度算法.md",
-    "算法/哨兵划分.md",
     "算法/前缀和与差分.md",
     "算法/排序算法.md",
-    "算法/链表.md",
     "算法/贪心算法.md",
     "算法/位运算.md",
     "网络/协议.md",
@@ -187,7 +188,6 @@
     "未命名",
     "算法/杂项.md",
     "未命名 1.md",
-    "比赛.md",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
     "pic/屏幕截图 2023-11-06 205012.png",
