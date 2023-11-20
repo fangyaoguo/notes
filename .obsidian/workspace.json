@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/前缀和与差分.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/前缀和与差分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/前缀和与差分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/排序算法.md"
+                "file": "算法/前缀和与差分.md"
               }
             }
           },
@@ -158,8 +157,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4f901f97998309ca",
+  "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
+    "算法/贪心算法.md",
+    "算法/寻找字符串.md",
+    "算法/双指针.md",
+    "算法/排序算法.md",
     "c++/c++ STl.md",
     "算法/栈.md",
     "算法/链表.md",
@@ -173,8 +176,6 @@
     "c++/友元.md",
     "算法/高精度算法.md",
     "算法/前缀和与差分.md",
-    "算法/排序算法.md",
-    "算法/贪心算法.md",
     "算法/位运算.md",
     "网络/协议.md",
     "网络/数据封装.md",
@@ -182,12 +183,10 @@
     "网络/ip路由基础.md",
     "网络/ipv4.md",
     "未命名.md",
-    "算法/双指针.md",
     "未命名.canvas",
     "c++/函数探幽.md",
     "未命名",
     "算法/杂项.md",
-    "未命名 1.md",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
     "pic/屏幕截图 2023-11-06 205012.png",
