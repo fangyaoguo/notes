@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/栈.md",
+                "file": "c++/c++ STl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/寻找字符串.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "string",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,14 +171,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "edca6676fe021341",
+  "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
     "算法/栈.md",
+    "算法/寻找字符串.md",
     "c++/c++ STl.md",
     "算法/动态规划.md",
     "算法/前缀和与差分.md",
     "算法/贪心算法.md",
-    "算法/寻找字符串.md",
     "算法/双指针.md",
     "算法/排序算法.md",
     "算法/链表.md",

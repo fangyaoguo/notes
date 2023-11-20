@@ -705,3 +705,68 @@ STL（Standard Template Library）中的`std::unordered_map`是C++中的一个�
     
 
 `std::unordered_map`允许存储键和值的任何类型，只要这些类型支持哈希操作和比较操作。对于自定义类型，可以通过提供自定义的哈希函数和相等性比较函数来支持`std::unordered_map`的使用。
+## string
+以下是`std::string`类的一些常用操作，包括构造、访问、修改、比较、查找和其他操作：
+
+1. **构造和初始化：**
+    
+    cppCopy code
+    
+    `std::string();                // 空字符串 std::string(const char*);     // 通过C风格字符串初始化 std::string(const std::string&); // 通过另一个字符串初始化 std::string(size_t, char);    // 重复n次的字符初始化 std::string(const char*, size_t); // 初始化为C风格字符串的前n个字符`
+    
+2. **赋值和拼接：**
+    
+    cppCopy code
+    
+    `std::string& operator=(const std::string&); // 赋值 std::string& operator=(const char*);        // 赋值给C风格字符串 std::string& operator+=(const std::string&); // 拼接 std::string& operator+=(const char*);        // 拼接C风格字符串`
+    
+3. **访问字符：**
+    
+    cppCopy code
+    
+    `char& operator[](size_t);     // 访问字符 char& at(size_t);              // 访问字符，带边界检查 char& front();                 // 获取第一个字符 char& back();                  // 获取最后一个字符`
+    
+4. **字符串迭代器：**
+    
+    cppCopy code
+    
+    `iterator begin();              // 返回指向第一个字符的迭代器 iterator end();                // 返回指向尾部的迭代器`
+    
+5. **修改字符串：**
+    
+    cppCopy code
+    
+    `void append(const std::string&); // 追加字符串 void append(const char*);        // 追加C风格字符串 void erase(size_t pos, size_t len); // 删除子字符串 void clear();                   // 清空字符串`
+    
+6. **比较字符串：**
+    
+    cppCopy code
+    
+    `bool operator==(const std::string&) const; // 相等比较 bool operator!=(const std::string&) const; // 不等比较 bool operator<(const std::string&) const;  // 小于比较`
+    
+7. **查找和替换：**
+    
+    cppCopy code
+    
+    `size_t find(const std::string&);   // 查找子字符串 void replace(size_t pos, size_t len, const std::string&); // 替换子字符串`
+    
+8. **字符串长度和空检查：**
+    
+    cppCopy code
+    
+    `size_t length() const;            // 返回字符串长度 bool empty() const;               // 检查字符串是否为空`
+    
+9. **转换为C风格字符串：**
+    
+    cppCopy code
+    
+    `const char* c_str() const;        // 转换为const char*`
+    
+10. **子字符串提取：**
+    
+    cppCopy code
+    
+    `std::string substr(size_t pos, size_t len); // 提取子字符串`
+    
+
+这里列举的只是一些常用的`std::string`操作，实际上`std::string`提供了更多的成员函数和操作符，以满足不同的字符串处理需求。详细的信息可以查阅C++的文档。
