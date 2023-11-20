@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/前缀和与差分.md",
+                "file": "算法/栈.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edca6676fe021341",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c++/c++ STl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/前缀和与差分.md",
+                "file": "c++/c++ STl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/前缀和与差分.md",
+                "file": "c++/c++ STl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/前缀和与差分.md"
+                "file": "c++/c++ STl.md"
               }
             }
           },
@@ -157,14 +172,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3de0c7882e4d819b",
+  "active": "edca6676fe021341",
   "lastOpenFiles": [
+    "算法/栈.md",
+    "c++/c++ STl.md",
+    "算法/动态规划.md",
+    "算法/前缀和与差分.md",
     "算法/贪心算法.md",
     "算法/寻找字符串.md",
     "算法/双指针.md",
     "算法/排序算法.md",
-    "c++/c++ STl.md",
-    "算法/栈.md",
     "算法/链表.md",
     "算法/bitset.md",
     "算法/哨兵划分.md",
@@ -175,7 +192,6 @@
     "c++/unordered_set.md",
     "c++/友元.md",
     "算法/高精度算法.md",
-    "算法/前缀和与差分.md",
     "算法/位运算.md",
     "网络/协议.md",
     "网络/数据封装.md",
@@ -186,7 +202,6 @@
     "未命名.canvas",
     "c++/函数探幽.md",
     "未命名",
-    "算法/杂项.md",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
     "pic/屏幕截图 2023-11-06 205012.png",

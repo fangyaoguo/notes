@@ -424,6 +424,7 @@ for (int element : myList) {
 `priority_queue`（优先队列）是C++标准模板库（STL）中的一个容器适配器，用于实现具有优先级的队列。它是基于堆（heap）数据结构实现的，通常用于需要按照特定顺序处理元素的场景。
 
 ### 特点和用途：
+
 1. **优先级队列：** `priority_queue` 会按照元素的优先级进行排序，每次访问或弹出的都是具有最高优先级的元素。
   
 2. **底层实现：** 通常使用堆来实现。默认情况下，`priority_queue` 是一个最大堆（大顶堆），意味着最大的元素总是位于队列的最前面。你也可以通过指定比较函数来创建最小堆。
@@ -511,4 +512,92 @@ int main() {
 }
 ```
 
-在这个例子中，`std::greater<int>` 作为比较函数，确保了最小的元素位于队首。这样，你就创建了一个最小堆。
+在这个例子中，`std::greater<int>` 作为比较函数，确保了最小的元素位于队首。这样，你就创建了一个最小堆。    
+## queue
+以下是`std::queue`的一些常用成员函数和特性：
+
+1. **push()：** 将元素加入队列的尾部。
+    
+    cppCopy code
+    
+    `std::queue<int> myQueue; myQueue.push(10); myQueue.push(20);`
+    
+2. **pop()：** 移除队列头部的元素。
+    
+    cppCopy code
+    
+    `myQueue.pop();`
+    
+3. **front()：** 返回队列头部的元素，但不会移除它。
+    
+    cppCopy code
+    
+    `int frontElement = myQueue.front();`
+    
+4. **back()：** 返回队列尾部的元素，但不会移除它。
+    
+    cppCopy code
+    
+    `int backElement = myQueue.back();`
+    
+5. **empty()：** 检查队列是否为空。
+    
+    cppCopy code
+    
+    `if (myQueue.empty()) {     // 队列为空 }`
+    
+6. **size()：** 返回队列中元素的数量。
+    
+    cppCopy code
+    
+    `int queueSize = myQueue.size();`
+    
+
+STL队列的使用示例：
+
+cppCopy code
+
+`#include <iostream> #include <queue>  int main() {     std::queue<int> myQueue;      myQueue.push(10);     myQueue.push(20);     myQueue.push(30);      while (!myQueue.empty()) {         std::cout << myQueue.front() << " ";         myQueue.pop();     }      return 0; }`
+
+在这个示例中，元素10首先被加入队列，然后是20和30。在循环中，队列头部的元素被打印并移除，直到队列为空。输出将是：`10 20 30`。
+## stack
+在STL中，栈是由模板类`std::stack`表示的。这个模板类提供了一组成员函数，使得栈的使用变得非常方便。以下是`std::stack`的一些重要成员函数和特性：
+
+1. **push()：** 将元素压入栈顶。
+    
+    cppCopy code
+    
+    `std::stack<int> myStack; myStack.push(10); myStack.push(20);`
+    
+2. **pop()：** 从栈顶弹出一个元素。
+    
+    cppCopy code
+    
+    `myStack.pop();`
+    
+3. **top()：** 返回栈顶元素的引用，但不会将其从栈中移除。
+    
+    cppCopy code
+    
+    `int topElement = myStack.top();`
+    
+4. **empty()：** 检查栈是否为空。
+    
+    cppCopy code
+    
+    `if (myStack.empty()) {     // 栈为空 }`
+    
+5. **size()：** 返回栈中元素的数量。
+    
+    cppCopy code
+    
+    `int stackSize = myStack.size();`
+    
+
+STL栈的使用示例：
+
+cppCopy code
+
+`#include <iostream> #include <stack>  int main() {     std::stack<int> myStack;      myStack.push(10);     myStack.push(20);     myStack.push(30);      while (!myStack.empty()) {         std::cout << myStack.top() << " ";         myStack.pop();     }      return 0; }`
+
+在这个示例中，元素30首先被压入栈，然后20，最后10。在循环中，栈顶元素被打印并弹出，直到栈为空。输出将是：`30 20 10`。
