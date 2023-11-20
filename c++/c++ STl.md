@@ -601,3 +601,107 @@ cppCopy code
 `#include <iostream> #include <stack>  int main() {     std::stack<int> myStack;      myStack.push(10);     myStack.push(20);     myStack.push(30);      while (!myStack.empty()) {         std::cout << myStack.top() << " ";         myStack.pop();     }      return 0; }`
 
 在这个示例中，元素30首先被压入栈，然后20，最后10。在循环中，栈顶元素被打印并弹出，直到栈为空。输出将是：`30 20 10`。
+## map
+TL（Standard Template Library）中的`std::map`是一种关联容器，实现了键值对的存储和检索。它基于红黑树（Red-Black Tree）实现，因此它的查找、插入和删除操作的平均时间复杂度是对数级别的，使得它非常高效。`std::map`中的键和值可以是任意类型，但键必须是可比较的。
+
+以下是`std::map`的一些常用成员函数和特性：
+
+1. **insert()：** 将键值对插入`std::map`。
+    
+    cppCopy code
+    
+    `std::map<int, std::string> myMap; myMap.insert(std::make_pair(1, "One")); myMap.insert(std::make_pair(2, "Two"));`
+    
+2. **emplace()：** 在C++11及更高版本中，使用`emplace`可以更高效地插入元素。
+    
+    cppCopy code
+    
+    `myMap.emplace(3, "Three");`
+    
+3. **find()：** 查找指定键的元素，返回指向该元素的迭代器，如果没有找到，则返回`end()`。
+    
+    cppCopy code
+    
+    `auto it = myMap.find(2); if (it != myMap.end()) {     // 找到了     std::cout << "Value for key 2: " << it->second << std::endl; } else {     // 没找到     std::cout << "Key 2 not found." << std::endl; }`
+    
+4. **erase()：** 删除指定键的元素。
+    
+    cppCopy code
+    
+    `myMap.erase(1);`
+    
+5. **empty()：** 检查`std::map`是否为空。
+    
+    cppCopy code
+    
+    `if (myMap.empty()) {     // map为空 }`
+    
+6. **size()：** 返回`std::map`中键值对的数量。
+    
+    cppCopy code
+    
+    `int mapSize = myMap.size();`
+    
+7. **operator[]：** 访问指定键的值，如果键不存在，则插入一个具有默认值的新元素。
+    
+    cppCopy code
+    
+    `std::cout << "Value for key 3: " << myMap[3] << std::endl;`
+    
+
+`std::map`中的元素按键的升序排列。如果需要按降序排列，可以使用`std::map`的逆迭代器或者考虑使用`std::map`的近亲`std::unordered_map`（基于哈希表实现）。  
+## unordered_map
+STL（Standard Template Library）中的`std::unordered_map`是C++中的一个关联容器，实现了无序（哈希）映射。它提供了一种快速查找和插入键-值对的方法。`std::unordered_map`使用哈希表来实现，具有平均O(1)的时间复杂度，但不保证元素的顺序。
+
+以下是`std::unordered_map`的一些重要特性和成员函数：
+
+1. **插入元素：**
+    
+    cppCopy code
+    
+    `#include <unordered_map>  std::unordered_map<int, std::string> myMap; myMap.insert({1, "one"}); myMap[2] = "two";`
+    
+2. **访问元素：**
+    
+    cppCopy code
+    
+    `std::string value = myMap[1]; // 返回键为1的值`
+    
+3. **查找元素：**
+    
+    cppCopy code
+    
+    `auto it = myMap.find(2); if (it != myMap.end()) {     // 找到了键为2的元素 }`
+    
+4. **删除元素：**
+    
+    cppCopy code
+    
+    `myMap.erase(1); // 删除键为1的元素`
+    
+5. **遍历元素：**
+    
+    cppCopy code
+    
+    `for (const auto& pair : myMap) {     std::cout << pair.first << ": " << pair.second << std::endl; }`
+    
+6. **大小和空判断：**
+    
+    cppCopy code
+    
+    `if (myMap.empty()) {     // unordered_map为空 } std::size_t size = myMap.size(); // 返回元素的数量`
+    
+7. **桶操作：**
+    
+    cppCopy code
+    
+    `std::size_t numBuckets = myMap.bucket_count(); // 返回桶的数量`
+    
+8. **哈希策略：**
+    
+    cppCopy code
+    
+    `myMap.hash_function(); // 返回哈希函数对象`
+    
+
+`std::unordered_map`允许存储键和值的任何类型，只要这些类型支持哈希操作和比较操作。对于自定义类型，可以通过提供自定义的哈希函数和相等性比较函数来支持`std::unordered_map`的使用。
