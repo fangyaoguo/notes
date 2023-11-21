@@ -712,59 +712,71 @@ STL（Standard Template Library）中的`std::unordered_map`是C++中的一个�
     
     cppCopy code
     
-    `std::string();                // 空字符串 std::string(const char*);     // 通过C风格字符串初始化 std::string(const std::string&); // 通过另一个字符串初始化 std::string(size_t, char);    // 重复n次的字符初始化 std::string(const char*, size_t); // 初始化为C风格字符串的前n个字符`
+    std::string();                // 空字符串   
+    std::string(const char*);     // 通过C风格字符串初始化   
+    std::string(const std::string&); // 通过另一个字符串初始化   
+    std::string(size_t, char);    // 重复n次的字符初始化   
+    std::string(const char*, size_t); // 初始化为C风格字符串的前n个字符`
     
 2. **赋值和拼接：**
     
-    cppCopy code
-    
-    `std::string& operator=(const std::string&); // 赋值 std::string& operator=(const char*);        // 赋值给C风格字符串 std::string& operator+=(const std::string&); // 拼接 std::string& operator+=(const char*);        // 拼接C风格字符串`
+    std::string& operator=(const std::string&); // 赋值  
+     std::string& operator=(const char*);        // 赋值给C风格字符串   
+     std::string& operator+=(const std::string&); // 拼接   
+     std::string& operator+=(const char*);        // 拼接C风格字符串`
     
 3. **访问字符：**
     
-    cppCopy code
     
-    `char& operator[](size_t);     // 访问字符 char& at(size_t);              // 访问字符，带边界检查 char& front();                 // 获取第一个字符 char& back();                  // 获取最后一个字符`
+    char& operator[](size_t);     // 访问字符  
+     char& at(size_t);              // 访问字符，带边界检查   
+     char& front();                 // 获取第一个字符   
+     char& back();                  // 获取最后一个字符`
     
 4. **字符串迭代器：**
     
-    cppCopy code
+ 
     
-    `iterator begin();              // 返回指向第一个字符的迭代器 iterator end();                // 返回指向尾部的迭代器`
+    iterator begin();              // 返回指向第一个字符的迭代器  
+     iterator end();                // 返回指向尾部的迭代器`
     
 5. **修改字符串：**
     
-    cppCopy code
+
     
-    `void append(const std::string&); // 追加字符串 void append(const char*);        // 追加C风格字符串 void erase(size_t pos, size_t len); // 删除子字符串 void clear();                   // 清空字符串`
+    void append(const std::string&); // 追加字符串   
+    void append(const char*);        // 追加C风格字符串   
+    void erase(size_t pos, size_t len); // 删除子字符串   
+    void clear();                   // 清空字符串`
     
 6. **比较字符串：**
     
-    cppCopy code
     
-    `bool operator==(const std::string&) const; // 相等比较 bool operator!=(const std::string&) const; // 不等比较 bool operator<(const std::string&) const;  // 小于比较`
+    bool operator == (const std::string&) const;   // 相等比较 bool      
+     operator!=(const std::string&) const; // 不等比较
+      bool operator<(const std::string&) const;  // 小于比较
     
 7. **查找和替换：**
     
-    cppCopy code
+
     
-    `size_t find(const std::string&);   // 查找子字符串 void replace(size_t pos, size_t len, const std::string&); // 替换子字符串`
+    size_t find(const std::string&);   // 查找子字符串 void  如果找不到就返回string::npos  
+     replace(size_t pos, size_t len, const std::string&); // 替换子字符串`
     
 8. **字符串长度和空检查：**
     
-    cppCopy code
+
     
-    `size_t length() const;            // 返回字符串长度 bool empty() const;               // 检查字符串是否为空`
+    size_t length() const;            // 返回字符串长度   
+    bool empty() const;               // 检查字符串是否为空`
     
 9. **转换为C风格字符串：**
     
-    cppCopy code
+ 
     
     `const char* c_str() const;        // 转换为const char*`
     
 10. **子字符串提取：**
-    
-    cppCopy code
     
     `std::string substr(size_t pos, size_t len); // 提取子字符串`
     
