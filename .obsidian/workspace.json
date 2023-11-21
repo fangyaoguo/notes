@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/寻找字符串.md",
+                "file": "算法/哨兵划分.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -173,17 +172,19 @@
   },
   "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
-    "算法/栈.md",
-    "算法/寻找字符串.md",
+    "c++/字符函数.md",
+    "算法/哨兵划分.md",
     "c++/c++ STl.md",
+    "c++/c的字符串操作函数.md",
+    "算法/排序算法.md",
+    "算法/寻找字符串.md",
+    "算法/栈.md",
     "算法/动态规划.md",
     "算法/前缀和与差分.md",
     "算法/贪心算法.md",
     "算法/双指针.md",
-    "算法/排序算法.md",
     "算法/链表.md",
     "算法/bitset.md",
-    "算法/哨兵划分.md",
     "c++/类.md",
     "c++/运算符重载.md",
     "算法/求数字位数.md",
@@ -197,9 +198,7 @@
     "网络/内容.md",
     "网络/ip路由基础.md",
     "网络/ipv4.md",
-    "未命名.md",
     "未命名.canvas",
-    "c++/函数探幽.md",
     "未命名",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
