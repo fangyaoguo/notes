@@ -224,6 +224,7 @@ int secondElement = myVector.at(1);  // 访问第二个元素
 std::vector<int> myVector = {1, 2, 3};
 
 myVector.push_back(4);  // 在末尾插入元素
+myVector.insert(myVector.begin()+2,2)//向索引为2的地方插入2
 ```
 
 ##### 删除元素：
@@ -231,6 +232,8 @@ myVector.push_back(4);  // 在末尾插入元素
 std::vector<int> myVector = {1, 2, 3, 4, 5};
 
 myVector.pop_back();   // 删除末尾元素
+myVector.erase(myVector.begin()+2)//删除索引为2的元素
+.clear()//delete all
 ```
 
 #### 获取容器大小
@@ -241,7 +244,6 @@ std::vector<int> myVector = {1, 2, 3, 4, 5};
 
 std::cout << "Size of vector: " << myVector.size() << std::endl;
 ```
-
 #### 遍历容器
 可以使用迭代器或者范围-based for 循环遍历 `std::vector`：
 
