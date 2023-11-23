@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "91d8e20bdc07641f",
+        "id": "fe98405fb35c2927",
         "type": "tabs",
         "children": [
           {
-            "id": "3de0c7882e4d819b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++/c++ STl.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edca6676fe021341",
+            "id": "18990180aa8ab7b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/哨兵划分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/哨兵划分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/c++ STl.md"
+                "file": "算法/哨兵划分.md"
               }
             }
           },
@@ -171,11 +158,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3de0c7882e4d819b",
+  "active": "18990180aa8ab7b2",
   "lastOpenFiles": [
+    "c++/c++ STl.md",
     "算法/哨兵划分.md",
     "c++/指针注意点.md",
-    "c++/c++ STl.md",
     "c++/字符函数.md",
     "c++/c的字符串操作函数.md",
     "算法/排序算法.md",
