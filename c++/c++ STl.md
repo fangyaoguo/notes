@@ -763,8 +763,7 @@ STL（Standard Template Library）中的`std::unordered_map`是C++中的一个�
 
     
     size_t find(const std::string&);   // 查找子字符串 void  如果找不到就返回string::npos  
-     replace(size_t pos, size_t len, const std::string&); // 替换子字符串`
-    
+     replace(size_t pos, size_t len, const std::string&); // 替换子字符串
 8. **字符串长度和空检查：**
     
 

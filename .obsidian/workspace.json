@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/哨兵划分.md",
+                "file": "c++/c++ STl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/哨兵划分.md",
+                "file": "c++/c++ STl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/哨兵划分.md"
+                "file": "c++/c++ STl.md"
               }
             }
           },
@@ -171,12 +171,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "edca6676fe021341",
+  "active": "3de0c7882e4d819b",
   "lastOpenFiles": [
+    "算法/哨兵划分.md",
     "c++/指针注意点.md",
     "c++/c++ STl.md",
     "c++/字符函数.md",
-    "算法/哨兵划分.md",
     "c++/c的字符串操作函数.md",
     "算法/排序算法.md",
     "算法/寻找字符串.md",
