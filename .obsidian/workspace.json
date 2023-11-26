@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/位运算.md",
+                "file": "c++/静态库和动态库的区别.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/位运算.md",
+                "file": "c++/静态库和动态库的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/位运算.md",
+                "file": "c++/静态库和动态库的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/位运算.md"
+                "file": "c++/静态库和动态库的区别.md"
               }
             }
           },
@@ -173,6 +172,11 @@
   },
   "active": "18990180aa8ab7b2",
   "lastOpenFiles": [
+    "c++/yaml.md",
+    "c++/静态库和动态库的区别.md",
+    "未命名.md",
+    "c++/类.md",
+    "算法/位运算.md",
     "算法/哨兵划分.md",
     "c++/c++ STl.md",
     "c++/指针注意点.md",
@@ -187,18 +191,13 @@
     "算法/双指针.md",
     "算法/链表.md",
     "算法/bitset.md",
-    "c++/类.md",
     "c++/运算符重载.md",
     "算法/求数字位数.md",
     "算法/二分.md",
     "c++/unordered_set.md",
     "c++/友元.md",
     "算法/高精度算法.md",
-    "算法/位运算.md",
     "网络/协议.md",
-    "网络/数据封装.md",
-    "网络/内容.md",
-    "网络/ip路由基础.md",
     "未命名.canvas",
     "未命名",
     "算法",
