@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/类.md",
+                "file": "算法/排序算法.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#c",
+                "query": "排序",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/类.md",
+                "file": "算法/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/类.md",
+                "file": "算法/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/类.md"
+                "file": "算法/排序算法.md"
               }
             }
           },
@@ -158,16 +159,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4f901f97998309ca",
+  "active": "3f09fe574160afdf",
   "lastOpenFiles": [
-    "[C++.md",
+    "算法/哨兵划分.md",
+    "算法/排序算法.md",
     "c++/类.md",
+    "c++/静态库和动态库的区别.md",
+    "pic/屏幕截图 2023-11-29 192312.png",
     "c++/c++ STl.md",
+    "[C++.md",
     "c++/dll的动态与静态加载.md",
     "c++/cmake.md",
-    "算法/排序算法.md",
-    "算法/哨兵划分.md",
-    "c++/静态库和动态库的区别.md",
     "c++/yaml.md",
     "未命名.md",
     "算法/位运算.md",
@@ -185,7 +187,6 @@
     "c++/运算符重载.md",
     "算法/求数字位数.md",
     "算法/二分.md",
-    "c++/unordered_set.md",
     "未命名.canvas",
     "未命名",
     "算法",
