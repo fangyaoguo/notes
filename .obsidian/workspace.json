@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/二分.md",
-                "mode": "source",
+                "file": "c++/bit_field.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/二分.md",
+                "file": "c++/bit_field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/二分.md",
+                "file": "c++/bit_field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/二分.md"
+                "file": "c++/bit_field.md"
               }
             }
           },
@@ -161,6 +160,8 @@
   },
   "active": "3f09fe574160afdf",
   "lastOpenFiles": [
+    "算法/二分.md",
+    "c++/bit_field.md",
     "c++/c++ STl.md",
     "c++/类.md",
     "c++/对象，继承，引用.md",
@@ -186,8 +187,6 @@
     "算法/链表.md",
     "算法/bitset.md",
     "c++/运算符重载.md",
-    "算法/求数字位数.md",
-    "算法/二分.md",
     "未命名.canvas",
     "未命名",
     "算法",
