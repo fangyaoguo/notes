@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译器属性.md",
+                "file": "esp32/arduino/web_server.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "10c3c2161e121868",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译器属性.md",
+                "file": "esp32/arduino/web_server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "编译器属性.md",
+                "file": "esp32/arduino/web_server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编译器属性.md"
+                "file": "esp32/arduino/web_server.md"
               }
             }
           },
@@ -171,13 +172,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f8d7962faafc66f1",
+  "active": "c18cadc375cfc753",
   "lastOpenFiles": [
+    "编译器属性.md",
+    "esp32/arduino/web_server.md",
+    "esp32/arduino",
+    "esp32/esp-idf",
+    "未命名",
+    "esp32",
     "网络/nmap 网络嗅探.md",
     "网络/ip路由基础.md",
     "网络/ipv4.md",
     "比赛.md",
-    "编译器属性.md",
     "[C++.md",
     "c++/bit_field.md",
     "算法/二分.md",
@@ -199,9 +205,7 @@
     "算法/栈.md",
     "算法/动态规划.md",
     "算法/前缀和与差分.md",
-    "算法/贪心算法.md",
     "未命名.canvas",
-    "未命名",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
     "pic/屏幕截图 2023-11-06 205012.png",
