@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "esp32/esp-idf/terminal.md",
+                "file": "c++/cmake.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cmake",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "esp32/esp-idf/terminal.md",
+                "file": "c++/cmake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "esp32/esp-idf/terminal.md",
+                "file": "c++/cmake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "esp32/esp-idf/terminal.md"
+                "file": "c++/cmake.md"
               }
             }
           },
@@ -186,8 +187,8 @@
   },
   "active": "f8d7962faafc66f1",
   "lastOpenFiles": [
-    "esp32/arduino/web_server.md",
     "esp32/esp-idf/terminal.md",
+    "esp32/arduino/web_server.md",
     "c++返回数组指针.md",
     "c++/bit_field.md",
     "编译器属性.md",
