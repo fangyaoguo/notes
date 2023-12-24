@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/cmake.md",
+                "file": "esp32/esp-idf/task.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -93,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/cmake.md",
+                "file": "esp32/esp-idf/task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/cmake.md",
+                "file": "esp32/esp-idf/task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/cmake.md"
+                "file": "esp32/esp-idf/task.md"
               }
             }
           },
@@ -187,6 +186,8 @@
   },
   "active": "f8d7962faafc66f1",
   "lastOpenFiles": [
+    "c++/cmake.md",
+    "esp32/esp-idf/task.md",
     "esp32/esp-idf/terminal.md",
     "esp32/arduino/web_server.md",
     "c++返回数组指针.md",
@@ -210,14 +211,12 @@
     "算法/哨兵划分.md",
     "pic/屏幕截图 2023-11-29 192312.png",
     "c++/dll的动态与静态加载.md",
-    "c++/cmake.md",
     "c++/yaml.md",
     "算法/位运算.md",
     "c++/指针注意点.md",
     "c++/字符函数.md",
     "c++/c的字符串操作函数.md",
     "算法/寻找字符串.md",
-    "算法/栈.md",
     "未命名.canvas",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
