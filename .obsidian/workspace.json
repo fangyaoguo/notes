@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "8b11288d79e4c85f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a2695365dbbfbb7e",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/类.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/类.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/类.md"
+                "file": "未命名.md"
               }
             }
           },
@@ -186,11 +199,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f8d7962faafc66f1",
+  "active": "8b11288d79e4c85f",
   "lastOpenFiles": [
+    "c++/类.md",
+    "未命名.md",
     "算法/题目/力扣题目1.18.md",
     "c++返回数组指针.md",
-    "c++/类.md",
     "c++/bit_field.md",
     "c++/c++ STl.md",
     "算法/题目",
@@ -219,7 +233,6 @@
     "算法/位运算.md",
     "c++/指针注意点.md",
     "c++/字符函数.md",
-    "c++/c的字符串操作函数.md",
     "未命名.canvas",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
