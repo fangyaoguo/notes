@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3f09fe574160afdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++/运算符重载.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a2695365dbbfbb7e",
             "type": "leaf",
             "state": {
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/运算符重载.md",
+                "file": "c++/c++ STl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/运算符重载.md",
+                "file": "c++/c++ STl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/运算符重载.md"
+                "file": "c++/c++ STl.md"
               }
             }
           },
@@ -172,8 +159,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f09fe574160afdf",
+  "active": "a2695365dbbfbb7e",
   "lastOpenFiles": [
+    "算法/题目/力扣题目1.20.md",
+    "未命名 1.md",
+    "c++/运算符重载.md",
     "c++/友元.md",
     "esp32/esp-idf/terminal.md",
     "c++/类.md",
@@ -203,9 +193,6 @@
     "算法/排序算法.md",
     "算法/哨兵划分.md",
     "pic/屏幕截图 2023-11-29 192312.png",
-    "c++/dll的动态与静态加载.md",
-    "c++/yaml.md",
-    "算法/位运算.md",
     "未命名.canvas",
     "算法",
     "pic/屏幕截图 2023-11-06 212248.png",
