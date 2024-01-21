@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/运算符重载.md",
+                "file": "c++/对象，继承，引用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cmake",
+                "query": "继承",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/运算符重载.md",
+                "file": "c++/对象，继承，引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/运算符重载.md",
+                "file": "c++/对象，继承，引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/运算符重载.md"
+                "file": "c++/对象，继承，引用.md"
               }
             }
           },
@@ -161,13 +162,13 @@
   },
   "active": "a2695365dbbfbb7e",
   "lastOpenFiles": [
+    "c++/类.md",
+    "c++/运算符重载.md",
     "c++/c++ STl.md",
     "算法/题目/力扣题目1.20.md",
     "未命名 1.md",
-    "c++/运算符重载.md",
     "c++/友元.md",
     "esp32/esp-idf/terminal.md",
-    "c++/类.md",
     "esp32/esp-idf/task.md",
     "算法/题目/力扣题目1.19.md",
     "c++返回数组指针.md",
