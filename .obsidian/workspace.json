@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/对象，继承，引用.md",
+                "file": "c++/文件操作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/对象，继承，引用.md",
+                "file": "c++/文件操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/对象，继承，引用.md",
+                "file": "c++/文件操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/对象，继承，引用.md"
+                "file": "c++/文件操作.md"
               }
             }
           },
@@ -162,14 +161,23 @@
   },
   "active": "a2695365dbbfbb7e",
   "lastOpenFiles": [
+    "c++/c++ STl.md",
+    "c++/文件操作.md",
+    "c++/bit_field.md",
+    "c++/c的字符串操作函数.md",
+    "c++/cmake.md",
+    "c++/dll的动态与静态加载.md",
+    "c++/string类.md",
+    "c++/unordered_set.md",
+    "c++/yaml.md",
+    "c++/函数探幽.md",
+    "c++/静态库和动态库的区别.md",
     "c++/类.md",
     "c++/对象，继承，引用.md",
     "pic/屏幕截图 2023-11-29 192312.png",
     "pic/屏幕截图 2023-11-06 212248.png",
     "pic/屏幕截图 2023-11-06 205012.png",
-    "c++/函数探幽.md",
     "算法/题目/力扣题目1.21.md",
-    "c++/c++ STl.md",
     "c++/运算符重载.md",
     "算法/题目/力扣题目1.20.md",
     "未命名 1.md",
@@ -178,23 +186,15 @@
     "esp32/esp-idf/task.md",
     "算法/题目/力扣题目1.19.md",
     "c++返回数组指针.md",
-    "c++/bit_field.md",
     "未命名.md",
     "算法/题目/力扣题目1.18.md",
     "算法/题目",
-    "c++/cmake.md",
     "esp32/arduino/web_server.md",
     "编译器属性.md",
     "esp32/arduino",
     "esp32/esp-idf",
     "未命名",
     "esp32",
-    "网络/nmap 网络嗅探.md",
-    "网络/ip路由基础.md",
-    "网络/ipv4.md",
-    "比赛.md",
-    "[C++.md",
-    "算法/二分.md",
     "未命名.canvas",
     "算法",
     "pic",
