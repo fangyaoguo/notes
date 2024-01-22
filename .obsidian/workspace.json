@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/题目/力扣题目1.21.md",
+                "file": "c++/对象，继承，引用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/题目/力扣题目1.21.md",
+                "file": "c++/对象，继承，引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/题目/力扣题目1.21.md",
+                "file": "c++/对象，继承，引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/题目/力扣题目1.21.md"
+                "file": "c++/对象，继承，引用.md"
               }
             }
           },
@@ -161,7 +161,11 @@
   },
   "active": "a2695365dbbfbb7e",
   "lastOpenFiles": [
+    "pic/屏幕截图 2023-11-29 192312.png",
+    "pic/屏幕截图 2023-11-06 212248.png",
+    "pic/屏幕截图 2023-11-06 205012.png",
     "c++/对象，继承，引用.md",
+    "c++/函数探幽.md",
     "算法/题目/力扣题目1.21.md",
     "c++/c++ STl.md",
     "c++/类.md",
@@ -190,13 +194,8 @@
     "比赛.md",
     "[C++.md",
     "算法/二分.md",
-    "c++/静态库和动态库的区别.md",
-    "算法/排序算法.md",
-    "pic/屏幕截图 2023-11-29 192312.png",
     "未命名.canvas",
     "算法",
-    "pic/屏幕截图 2023-11-06 212248.png",
-    "pic/屏幕截图 2023-11-06 205012.png",
     "pic",
     "新建文件夹",
     "网络",
