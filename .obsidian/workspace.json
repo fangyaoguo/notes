@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pcb/过孔盲孔通孔.md",
+                "file": "c++/c++ STl.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "抽象类",
+                "query": "二分",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pcb/过孔盲孔通孔.md",
+                "file": "c++/c++ STl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pcb/过孔盲孔通孔.md",
+                "file": "c++/c++ STl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pcb/过孔盲孔通孔.md"
+                "file": "c++/c++ STl.md"
               }
             }
           },
@@ -161,9 +162,10 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
+    "算法/二分.md",
+    "pcb/过孔盲孔通孔.md",
     "pic/Pasted image 20240123150545.png",
     "c++/函数模板.md",
-    "pcb/过孔盲孔通孔.md",
     "pcb",
     "pic/Pasted image 20240123130500.png",
     "pic/Pasted image 20240123125630.png",
@@ -206,7 +208,6 @@
     "pic",
     "新建文件夹",
     "网络",
-    "c++",
-    "屏幕截图 2023-11-06 205012.png"
+    "c++"
   ]
 }

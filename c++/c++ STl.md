@@ -38,6 +38,29 @@ upper_bound(potions.begin(), potions.end(), t)
 这将在已排序的 `potions` 容器中找到第一个大于 `t` 的元素的迭代器。然后，通过计算这个迭代器与 `potions.begin()` 之间的距离，即 `upper_bound(potions.begin(), potions.end(), t) - potions.begin()`，可以得到小于等于 `t` 的元素的数量。
 
 最终，`potions.size() - ...` 就是大于 `t` 的元素的数量，也就是成功的配对数量。
+`lower_bound` 和 `upper_bound` 都是 C++ 标准模板库（STL）中的算法，用于在有序序列中进行二分查找。它们的主要区别在于：
+
+1. **返回值：**
+   - `lower_bound` 返回的是在序列中第一个不小于指定值的元素的位置（迭代器）。
+   - `upper_bound` 返回的是在序列中第一个大于指定值的元素的位置（迭代器）。
+
+2. **定位元素：**
+   - `lower_bound` 定位的是不小于指定值的第一个元素，包括相等的情况。
+   - `upper_bound` 定位的是大于指定值的第一个元素。
+
+在代码中，你可以看到使用 `lower_bound` 来找到第一个不小于 `target` 的位置：
+
+```cpp
+auto bound = lower_bound(sums.begin(), sums.end(), target);
+```
+
+如果你希望找到大于某个值的第一个元素的位置，你可以使用 `upper_bound`：
+
+```cpp
+auto bound = upper_bound(sums.begin(), sums.end(), target);
+```
+
+总的来说，两者都是在有序序列中进行二分查找的工具，只是定位的元素条件略有不同。
 ### 排序算法
 `std::sort` 是 C++ 标准库中的排序算法，用于对容器中的元素进行排序。这个算法采用迭代器作为参数，并按升序（默认情况下）或指定的比较函数对元素进行排序。
 
