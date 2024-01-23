@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/文件操作.md",
+                "file": "算法/题目/力扣题目1.22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/文件操作.md",
+                "file": "算法/题目/力扣题目1.22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/文件操作.md",
+                "file": "算法/题目/力扣题目1.22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/文件操作.md"
+                "file": "算法/题目/力扣题目1.22.md"
               }
             }
           },
@@ -162,8 +162,9 @@
   "active": "a2695365dbbfbb7e",
   "lastOpenFiles": [
     "c++/c++ STl.md",
-    "c++/文件操作.md",
+    "算法/题目/力扣题目1.22.md",
     "c++/bit_field.md",
+    "c++/文件操作.md",
     "c++/c的字符串操作函数.md",
     "c++/cmake.md",
     "c++/dll的动态与静态加载.md",
@@ -190,7 +191,6 @@
     "算法/题目/力扣题目1.18.md",
     "算法/题目",
     "esp32/arduino/web_server.md",
-    "编译器属性.md",
     "esp32/arduino",
     "esp32/esp-idf",
     "未命名",
