@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/函数模板.md",
+                "file": "pcb/过孔盲孔通孔.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/函数模板.md",
+                "file": "pcb/过孔盲孔通孔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/函数模板.md",
+                "file": "pcb/过孔盲孔通孔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/函数模板.md"
+                "file": "pcb/过孔盲孔通孔.md"
               }
             }
           },
@@ -161,12 +161,15 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
+    "pic/Pasted image 20240123150545.png",
+    "c++/函数模板.md",
+    "pcb/过孔盲孔通孔.md",
+    "pcb",
     "pic/Pasted image 20240123130500.png",
     "pic/Pasted image 20240123125630.png",
     "pic/Pasted image 20240123123723.png",
     "pic/Pasted image 20240123123554.png",
     "pic/Pasted image 20240123122946.png",
-    "c++/函数模板.md",
     "c++/文件操作.md",
     "pic/Pasted image 20240123100000.png",
     "算法/题目/力扣题目1.22.md",
@@ -194,11 +197,9 @@
     "esp32/esp-idf/task.md",
     "算法/题目/力扣题目1.19.md",
     "c++返回数组指针.md",
-    "未命名.md",
     "算法/题目",
     "esp32/arduino",
     "esp32/esp-idf",
-    "未命名",
     "esp32",
     "未命名.canvas",
     "算法",
@@ -206,7 +207,6 @@
     "新建文件夹",
     "网络",
     "c++",
-    "屏幕截图 2023-11-06 205012.png",
-    "屏幕截图 2023-11-06 212248.png"
+    "屏幕截图 2023-11-06 205012.png"
   ]
 }
