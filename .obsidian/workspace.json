@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/模板/存在性dp.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "queue",
+                "query": "set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/模板/存在性dp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c++/c++ STl.md",
+                "file": "算法/模板/存在性dp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c++/c++ STl.md"
+                "file": "算法/模板/存在性dp.md"
               }
             }
           },
@@ -160,8 +160,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "914fa0154c0613d3",
+  "active": "4f901f97998309ca",
   "lastOpenFiles": [
+    "c++/c++ STl.md",
+    "算法/模板/存在性dp.md",
+    "算法/模板",
+    "算法/未命名.md",
     "算法/输入输出.md",
     "算法/题目/1.31.md",
     "算法/树.md",
@@ -170,7 +174,6 @@
     "pic/Pasted image 20240201152737.png",
     "算法/题目/1.30.md",
     "算法/题目/1.29.md",
-    "c++/c++ STl.md",
     "算法/题目/力扣题目1.26.md",
     "算法/题目/力扣题目1.23.md",
     "算法/题目/力扣题目1.24.md",
@@ -196,7 +199,6 @@
     "c++/c的字符串操作函数.md",
     "c++/cmake.md",
     "c++/dll的动态与静态加载.md",
-    "c++/string类.md",
     "pic/屏幕截图 2023-11-29 192312.png",
     "算法/题目",
     "esp32/arduino",
@@ -206,7 +208,6 @@
     "算法",
     "pic",
     "新建文件夹",
-    "网络",
-    "c++"
+    "网络"
   ]
 }
