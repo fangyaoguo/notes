@@ -61,6 +61,40 @@ auto bound = upper_bound(sums.begin(), sums.end(), target);
 ```
 
 总的来说，两者都是在有序序列中进行二分查找的工具，只是定位的元素条件略有不同。
+## distince
+`std::distance` 是 C++ 标准库中的一个算法，用于计算两个迭代器之间的距离。它的定义如下：
+
+```cpp
+template<class InputIt>
+typename std::iterator_traits<InputIt>::difference_type
+distance(InputIt first, InputIt last);
+```
+
+其中，`InputIt` 是迭代器的类型，`first` 是起始迭代器，`last` 是结束迭代器。返回值是两个迭代器之间的距离，以 `difference_type` 类型表示。
+
+在使用时，`std::distance` 可以用于计算两个迭代器之间的元素个数。例如：
+
+```cpp
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+    
+    auto first = vec.begin();
+    auto last = vec.end();
+
+    std::ptrdiff_t dist = std::distance(first, last);
+
+    std::cout << "Distance: " << dist << std::endl;
+
+    return 0;
+}
+```
+
+在你的代码中，`std::distance(nums.begin() + i - 1, Iterator)` 用于计算从 `nums.begin() + i - 1` 到 `Iterator` 之间的元素个数，即两个迭代器之间的距离。在这里，这个距离表示了子数组的长度。
+
+由于 `std::distance` 返回 `std::ptrdiff_t` 类型，而你想将其转换为 `int` 类型，需要小心处理可能的溢出问题，以避免运行时错误。在前面的代码修改中，使用了 `std::min` 函数来确保距离不会溢出 `INT_MAX`。
 ### 排序算法
 `std::sort` 是 C++ 标准库中的排序算法，用于对容器中的元素进行排序。这个算法采用迭代器作为参数，并按升序（默认情况下）或指定的比较函数对元素进行排序。
 
