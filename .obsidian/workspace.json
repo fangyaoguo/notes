@@ -160,8 +160,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4f901f97998309ca",
+  "active": "914fa0154c0613d3",
   "lastOpenFiles": [
+    "pic/Pasted image 20240218143831.png",
     "c++/c++ STl.md",
     "算法/模板/存在性dp.md",
     "算法/模板",
@@ -198,7 +199,6 @@
     "c++/bit_field.md",
     "c++/c的字符串操作函数.md",
     "c++/cmake.md",
-    "c++/dll的动态与静态加载.md",
     "pic/屏幕截图 2023-11-29 192312.png",
     "算法/题目",
     "esp32/arduino",
