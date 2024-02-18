@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/模板/存在性dp.md",
+                "file": "算法/动态规划.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "set",
+                "query": "tag:#求最大子段和",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/模板/存在性dp.md",
+                "file": "算法/动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/模板/存在性dp.md",
+                "file": "算法/动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/模板/存在性dp.md"
+                "file": "算法/动态规划.md"
               }
             }
           },
@@ -162,10 +162,14 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
+    "算法/贪心算法.md",
+    "算法/动态规划.md",
+    "算法/模板/bitset.md",
+    "pic/Pasted image 20240218171618.png",
+    "算法/模板/存在性dp.md",
     "pic/Pasted image 20240218150008.png",
     "pic/Pasted image 20240218143831.png",
     "c++/c++ STl.md",
-    "算法/模板/存在性dp.md",
     "算法/模板",
     "算法/未命名.md",
     "算法/输入输出.md",
@@ -193,13 +197,9 @@
     "pic/Pasted image 20240123125630.png",
     "pic/Pasted image 20240123123723.png",
     "pic/Pasted image 20240123123554.png",
-    "pic/Pasted image 20240123122946.png",
     "c++/文件操作.md",
-    "pic/Pasted image 20240123100000.png",
     "算法/题目/力扣题目1.22.md",
     "c++/bit_field.md",
-    "c++/c的字符串操作函数.md",
-    "c++/cmake.md",
     "算法/题目",
     "esp32/arduino",
     "esp32/esp-idf",
