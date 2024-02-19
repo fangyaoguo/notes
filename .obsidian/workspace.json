@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/动态规划.md",
+                "file": "算法/模板/单调栈.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/动态规划.md",
+                "file": "算法/模板/单调栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/动态规划.md",
+                "file": "算法/模板/单调栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/动态规划.md"
+                "file": "算法/模板/单调栈.md"
               }
             }
           },
@@ -162,8 +161,10 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
-    "算法/贪心算法.md",
+    "pic/Pasted image 20240219172158.png",
     "算法/动态规划.md",
+    "算法/模板/单调栈.md",
+    "算法/贪心算法.md",
     "算法/模板/bitset.md",
     "pic/Pasted image 20240218171618.png",
     "算法/模板/存在性dp.md",
@@ -198,8 +199,6 @@
     "pic/Pasted image 20240123123723.png",
     "pic/Pasted image 20240123123554.png",
     "c++/文件操作.md",
-    "算法/题目/力扣题目1.22.md",
-    "c++/bit_field.md",
     "算法/题目",
     "esp32/arduino",
     "esp32/esp-idf",
