@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/模板/元素贡献度.md",
+                "file": "算法/模板/离散化与树状数组.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/模板/元素贡献度.md",
+                "file": "算法/模板/离散化与树状数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/模板/元素贡献度.md",
+                "file": "算法/模板/离散化与树状数组.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/模板/元素贡献度.md"
+                "file": "算法/模板/离散化与树状数组.md"
               }
             }
           },
@@ -161,8 +161,10 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
-    "算法/模板/单调栈.md",
+    "pic/Pasted image 20240220202849.png",
     "算法/模板/元素贡献度.md",
+    "算法/模板/离散化与树状数组.md",
+    "算法/模板/单调栈.md",
     "算法/模板/存在性dp.md",
     "c++/c++ STl.md",
     "c++/类.md",
@@ -192,8 +194,6 @@
     "esp32/esp-idf/terminal.md",
     "esp32/esp-idf/task.md",
     "算法/双指针.md",
-    "算法/二分.md",
-    "pcb/过孔盲孔通孔.md",
     "pic/Pasted image 20240123150545.png",
     "pcb",
     "pic/Pasted image 20240123130500.png",
