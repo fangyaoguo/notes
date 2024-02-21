@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/图.md",
+                "file": "算法/模板/全排列.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/图.md",
+                "file": "算法/模板/全排列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/图.md",
+                "file": "算法/模板/全排列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/图.md"
+                "file": "算法/模板/全排列.md"
               }
             }
           },
@@ -161,9 +161,11 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
+    "pic/Pasted image 20240221210543.png",
+    "算法/图.md",
+    "算法/模板/全排列.md",
     "pic/Pasted image 20240221200935.png",
     "算法/贪心算法.md",
-    "算法/图.md",
     "pic/SmartSelect_20240221_191619_Video Player.jpg",
     "pic/SmartSelect_20240221_191758_Video Player.jpg",
     "算法/模板/离散化与树状数组.md",
@@ -182,7 +184,6 @@
     "pic/Pasted image 20240219172158.png",
     "算法/动态规划.md",
     "算法/模板/bitset.md",
-    "pic/Pasted image 20240218171618.png",
     "算法/模板",
     "算法/输入输出.md",
     "算法/题目/1.31.md",
@@ -197,7 +198,6 @@
     "c++/num to string.md",
     "esp32/esp-idf/terminal.md",
     "esp32/esp-idf/task.md",
-    "算法/双指针.md",
     "pcb",
     "算法/题目",
     "esp32/arduino",
