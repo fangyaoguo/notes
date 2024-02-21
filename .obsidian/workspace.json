@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/模板/离散化与树状数组.md",
+                "file": "算法/图.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/模板/离散化与树状数组.md",
+                "file": "算法/图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/模板/离散化与树状数组.md",
+                "file": "算法/图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/模板/离散化与树状数组.md"
+                "file": "算法/图.md"
               }
             }
           },
@@ -161,6 +161,11 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
+    "算法/贪心算法.md",
+    "算法/图.md",
+    "pic/SmartSelect_20240221_191619_Video Player.jpg",
+    "pic/SmartSelect_20240221_191758_Video Player.jpg",
+    "算法/模板/离散化与树状数组.md",
     "pic/Pasted image 20240221174948.png",
     "pic/Pasted image 20240221172108.png",
     "pic/Pasted image 20240221172036.png",
@@ -168,7 +173,6 @@
     "pic/Pasted image 20240221170256.png",
     "pic/Pasted image 20240220202849.png",
     "算法/模板/元素贡献度.md",
-    "算法/模板/离散化与树状数组.md",
     "算法/模板/单调栈.md",
     "算法/模板/存在性dp.md",
     "c++/c++ STl.md",
@@ -176,18 +180,13 @@
     "c++/仿函数.md",
     "pic/Pasted image 20240219172158.png",
     "算法/动态规划.md",
-    "算法/贪心算法.md",
     "算法/模板/bitset.md",
     "pic/Pasted image 20240218171618.png",
-    "pic/Pasted image 20240218150008.png",
-    "pic/Pasted image 20240218143831.png",
     "算法/模板",
-    "算法/未命名.md",
     "算法/输入输出.md",
     "算法/题目/1.31.md",
     "算法/树.md",
     "算法/树的遍历.md",
-    "pic/Pasted image 20240201155958.png",
     "算法/题目/1.30.md",
     "算法/题目/1.29.md",
     "算法/题目/力扣题目1.26.md",
