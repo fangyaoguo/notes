@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/模板/全排列.md",
+                "file": "算法/模板/乘法逆元.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1afe4d89a4b9d6e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structured bindings.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#求最大子段和",
+                "query": "tag:#prom算法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/模板/全排列.md",
+                "file": "算法/模板/乘法逆元.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/模板/全排列.md",
+                "file": "算法/模板/乘法逆元.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/模板/全排列.md"
+                "file": "算法/模板/乘法逆元.md"
               }
             }
           },
@@ -161,43 +174,44 @@
   },
   "active": "914fa0154c0613d3",
   "lastOpenFiles": [
-    "pic/Pasted image 20240221210543.png",
-    "算法/图.md",
+    "算法/模板/快速幂.md",
+    "算法/模板/乘法逆元.md",
+    "算法/模板/gcd与lcm.md",
+    "算法/模板/埃氏筛法.md",
+    "算法/模板/未命名",
+    "Structured bindings.md",
+    "算法/题目/1.29.md",
+    "算法/模板/离散化与树状数组.md",
+    "算法/模板/bitset.md",
+    "算法/模板/最小生成树.md",
+    "算法/模板/元素贡献度.md",
+    "算法/模板/权值最短路.md",
     "算法/模板/全排列.md",
+    "算法/模板/求一个数的因子与质因子.md",
+    "算法/模板/连通块问题.md",
+    "算法/模板/二维最短路径问题.md",
+    "算法/模板/单调栈.md",
+    "算法/模板/存在性dp.md",
+    "pic/Pasted image 20240227212621.png",
+    "c++/c++ STl.md",
+    "算法/二分.md",
+    "pic/Pasted image 20240227205345.png",
+    "算法/图.md",
+    "pic/Pasted image 20240221210543.png",
     "pic/Pasted image 20240221200935.png",
     "算法/贪心算法.md",
     "pic/SmartSelect_20240221_191619_Video Player.jpg",
     "pic/SmartSelect_20240221_191758_Video Player.jpg",
-    "算法/模板/离散化与树状数组.md",
     "pic/Pasted image 20240221174948.png",
     "pic/Pasted image 20240221172108.png",
     "pic/Pasted image 20240221172036.png",
     "pic/Pasted image 20240221170325.png",
-    "pic/Pasted image 20240221170256.png",
-    "pic/Pasted image 20240220202849.png",
-    "算法/模板/元素贡献度.md",
-    "算法/模板/单调栈.md",
-    "算法/模板/存在性dp.md",
-    "c++/c++ STl.md",
     "c++/类.md",
     "c++/仿函数.md",
-    "pic/Pasted image 20240219172158.png",
     "算法/动态规划.md",
-    "算法/模板/bitset.md",
     "算法/模板",
     "算法/输入输出.md",
     "算法/题目/1.31.md",
-    "算法/树.md",
-    "算法/树的遍历.md",
-    "算法/题目/1.30.md",
-    "算法/题目/1.29.md",
-    "算法/题目/力扣题目1.26.md",
-    "算法/题目/力扣题目1.23.md",
-    "算法/题目/力扣题目1.24.md",
-    "算法/题目/力扣题目1.25.md",
-    "c++/num to string.md",
-    "esp32/esp-idf/terminal.md",
-    "esp32/esp-idf/task.md",
     "pcb",
     "算法/题目",
     "esp32/arduino",
@@ -206,7 +220,6 @@
     "未命名.canvas",
     "算法",
     "pic",
-    "新建文件夹",
-    "网络"
+    "新建文件夹"
   ]
 }
