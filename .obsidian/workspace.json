@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/模板/kmp.md",
+                "file": "算法/模板/01背包.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/模板/kmp.md",
+                "file": "算法/模板/01背包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/模板/kmp.md",
+                "file": "算法/模板/01背包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/模板/kmp.md"
+                "file": "算法/模板/01背包.md"
               }
             }
           },
@@ -161,8 +161,11 @@
   },
   "active": "1afe4d89a4b9d6e6",
   "lastOpenFiles": [
-    "算法/模板/二维最短路径问题.md",
+    "算法/模板/组合数.md",
+    "算法/模板/01背包.md",
+    "算法/模板/gcd与lcm.md",
     "算法/模板/kmp.md",
+    "算法/模板/二维最短路径问题.md",
     "算法/模板/单调栈.md",
     "算法/模板/存在性dp.md",
     "算法/模板/乘法逆元.md",
@@ -184,11 +187,8 @@
     "未命名.md",
     "未命名.canvas",
     "算法/模板/快速幂.md",
-    "算法/模板/gcd与lcm.md",
     "算法/模板/未命名",
     "算法/模板/离散化与树状数组.md",
-    "算法/模板/bitset.md",
-    "算法/模板/最小生成树.md",
     "pic/Pasted image 20240227212621.png",
     "pic/Pasted image 20240227205345.png",
     "pic/Pasted image 20240221210543.png",
