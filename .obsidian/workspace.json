@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/模板/01背包.md",
+                "file": "算法/模板/无穷背包（适用一个可以无限选择）.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf22edab972f9404",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/位运算.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "insert",
+                "query": "位运算",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/模板/01背包.md",
+                "file": "算法/模板/无穷背包（适用一个可以无限选择）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/模板/01背包.md",
+                "file": "算法/模板/无穷背包（适用一个可以无限选择）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/模板/01背包.md"
+                "file": "算法/模板/无穷背包（适用一个可以无限选择）.md"
               }
             }
           },
@@ -161,16 +174,22 @@
   },
   "active": "1afe4d89a4b9d6e6",
   "lastOpenFiles": [
-    "pic/Pasted image 20240310124902.png",
-    "算法/模板/组合数.md",
-    "算法/模板/01背包.md",
-    "算法/模板/gcd与lcm.md",
+    "算法/模板/01背包（适用只有选和不选两种选择）.md",
+    "算法/模板/无穷背包（适用一个可以无限选择）.md",
+    "算法/位运算.md",
+    "pic/Pasted image 20240310194716.png",
     "算法/模板/kmp.md",
+    "算法/模板/全排列.md",
+    "算法/模板/元素贡献度.md",
+    "算法/模板/组合数.md",
+    "算法/模板/最小生成树.md",
     "算法/模板/二维最短路径问题.md",
     "算法/模板/单调栈.md",
     "算法/模板/存在性dp.md",
-    "算法/模板/乘法逆元.md",
     "算法/模板/埃氏筛法.md",
+    "pic/Pasted image 20240310124902.png",
+    "算法/模板/gcd与lcm.md",
+    "算法/模板/乘法逆元.md",
     "c++/c++ STl.md",
     "算法/题目/力扣题目1.26.md",
     "算法/题目/力扣题目1.25.md",
@@ -183,11 +202,7 @@
     "算法/题目/力扣题目1.18.md",
     "算法/题目/1.31.md",
     "算法/题目/1.30.md",
-    "算法/题目/1.29.md",
-    "Structured bindings.md",
-    "未命名.md",
     "未命名.canvas",
-    "算法/模板/快速幂.md",
     "算法/模板/未命名",
     "pic/Pasted image 20240227212621.png",
     "pic/Pasted image 20240227205345.png",
@@ -197,8 +212,6 @@
     "pic/SmartSelect_20240221_191758_Video Player.jpg",
     "pic/Pasted image 20240221174948.png",
     "pic/Pasted image 20240221172108.png",
-    "pic/Pasted image 20240221172036.png",
-    "pic/Pasted image 20240221170325.png",
     "算法/模板",
     "pcb",
     "算法/题目",
